@@ -1,2 +1,59 @@
 body {
-  font-family: Lato; }
+  font-family: 'Brandon Grotesque'; }
+
+section {
+  padding: 100px 200px; }
+  @media (min-width: 400px) and (max-width: 900px) {
+    section {
+      padding: 50px 100px; } }
+  @media (min-width: 100px) and (max-width: 400px) {
+    section {
+      padding: 0; } }
+
+.home {
+  background: url(../img/Image.png) center no-repeat;
+  background-size: cover;
+  padding-top: 50px; }
+  .home header {
+    color: #d4d4d4;
+    font-size: 25px;
+    font-weight: 400; }
+    .home header h1 {
+      display: inline;
+      text-transform: uppercase;
+      letter-spacing: 2.5px; }
+      .home header h1 i {
+        font-size: 30px; }
+    .home header .navbar-toggler {
+      color: #d4d4d4; }
+    .home header .collapse {
+      justify-content: flex-end; }
+      .home header .collapse a {
+        color: #d4d4d4;
+        font-size: 18px;
+        font-weight: 500; }
+
+.website {
+  text-align: center; }
+  .website p {
+    color: #d4d4d4;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 160px; }
+  .website h2 {
+    color: #d4d4d4;
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px 0 80px; }
+  .website .btn {
+    padding: 20px 70px;
+    border-radius: 2px;
+    border: 1px solid #d4d4d4;
+    background-color: transparent;
+    color: #d4d4d4;
+    margin-bottom: 120px;
+    font-size: 23px;
+    font-weight: 700; }
+    .website .btn:hover {
+      background-color: #000000; }
